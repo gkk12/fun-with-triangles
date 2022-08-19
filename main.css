@@ -93,3 +93,13 @@ button {
 .navigation .link-active {
     font-weight: bold;
 }
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
