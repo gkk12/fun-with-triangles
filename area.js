@@ -7,5 +7,5 @@ areaButton.addEventListener('click', calculateArea);
 function calculateArea(){
     
     const area = (Number(inputs[0].value) * Number(inputs[1].value))/2;
-    outputText.innerText = "The area of the triangle is : " +  area + "cm²";
+    outputText.innerText = `The area of the triangle is : ${Number.parseFloat(area).toFixed(2)} cm²`;
 }
